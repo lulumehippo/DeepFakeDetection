@@ -3,7 +3,9 @@
 A deep learning pipeline that detects AI-generated (deepfake) face videos using
 transfer learning on EfficientNet-B0. Built as a group final project for
 **DATA 621 — Practical Deep Learning** at UMBC.
-Ben Wayland, Chloe Just, Luke Lu
+
+**Team:** Ben Wayland · Chloe Just · Luke Lu
+
 ---
 
 ## Results
