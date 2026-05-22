@@ -1,0 +1,37 @@
+{
+  "dataset_dir": "C:\\Users\\lulum\\Documents\\umbc\\DATA 621\\Final Project\\04_dataset",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "class_to_idx": {
+    "fake": 0,
+    "real": 1
+  },
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "split_sizes": {
+    "train": 57501,
+    "val": 12141,
+    "test": 12410
+  },
+  "label_stats": {
+    "real": {
+      "train": 7118,
+      "val": 1502,
+      "test": 1508
+    },
+    "fake": {
+      "train": 50383,
+      "val": 10639,
+      "test": 10902
+    }
+  }
+}

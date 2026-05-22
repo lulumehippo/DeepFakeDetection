@@ -1,0 +1,35 @@
+# ── Sensitive credentials ──────────────────────────────────────────────────────
+kaggle.json
+
+# ── Large data files (stored on Google Drive, not in Git) ─────────────────────
+01_raw_videos/
+02_frames/
+03_faces/
+04_dataset/
+*.rar
+
+# ── Jupyter / Python ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Claude Code internal files ─────────────────────────────────────────────────
+.claude/
+CLAUDE.md
+
+# ── Environment / OS ───────────────────────────────────────────────────────────
+.env
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
+
+# ── Draft presentation files (keep only the final version) ────────────────────
+DeepFake_v2.pptx
+DeepFake_Final.pptx

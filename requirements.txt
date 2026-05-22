@@ -1,0 +1,28 @@
+# Deepfake Detection — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Tested on Google Colab (Python 3.12, CUDA 12.x) and
+# locally on Windows with Python 3.12 + RTX 5060.
+
+# ── Core ML framework ─────────────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ── Face detection ────────────────────────────────────────────────────────────
+facenet-pytorch>=2.5.3
+Pillow>=9.0.0            # must be reinstalled after facenet-pytorch on Colab
+
+# ── Video processing ──────────────────────────────────────────────────────────
+opencv-python>=4.8.0
+
+# ── Data & visualisation ──────────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+
+# ── Explainability ────────────────────────────────────────────────────────────
+grad-cam>=1.4.8
+
+# ── Dataset download (optional — only needed for first-time data setup) ───────
+kaggle>=1.6.0
