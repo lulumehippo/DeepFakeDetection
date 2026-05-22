@@ -30,6 +30,12 @@ venv/
 .DS_Store
 Thumbs.db
 
+# ── Build / submission artifacts ───────────────────────────────────────────────
+*.zip
+
+# ── Office temporary lock files (created while a file is open) ─────────────────
+~$*
+
 # ── Draft presentation files (keep only the final version) ────────────────────
 DeepFake_v2.pptx
 DeepFake_Final.pptx
